@@ -2,10 +2,110 @@
 <html>
     <head>
         <title>Portfolio of Kyle Hutchinson</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="./style.css"/>
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Arvo|Libra+Baskerville|Lato|Roboto|Montserrat">
     </head>
     <body>
-        <h1>testing</h1>
+        <nav class="navbar navbar-default my-nav">
+            <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                <a class="navbar-brand" href="#"><img id="logo" src="./logo.png"></a>
+                </div>
+
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li class="nav-list"><a class = "nav-options" href="#">About Me<span class="sr-only">(current)</span></a></li>
+                    <li class="nav-list"><a class = "nav-options" href="#">Skills</a></li>
+                    <li class="nav-list"><a class = "nav-options" href="#">Portfolio</a></li>
+                    <li class="nav-list"><a class = "nav-options" href="#">Contact</a></li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+                 </div><!-- /.container-fluid -->
+        </nav>
+        <div class="container-fluid">
+        <div class="banner">
+            <span class="banner-text">I am a thinker.  A problem solver. A perpetual student.  My aim is to enrich the lives of others through my work.</span>
+        </div>
+        </div>
+        <div class="about-me container-fluid">
+            <div class="row">
+                <div class="bio-image col-xs-12 col-md-3 col-md-offset-2">
+                    <img src="./IMG_4047.JPG" class="img pic"/>
+                </div>
+                <div class="bio col-xs-12 col-md-5">
+                        <h4>A little about me</h4>
+                        <p>I am a Web Developer with skills in HTML, CSS, JavaScript, Bootstrap, NodeJS, React, React Router, React Redux, MongoDB, and Express. I am a recent graduate of V-School, a full-stack developer program in Salt Lake City, Utah.</p>
+                        <p>In addition to my technology skillset, I have a background in project management, strategic planning, change management and consultation.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills container-fluid option1">
+            <div>
+            <h2 class="header">Skills</h2>
+            <div class="work row">
+                <div class="col-xs-12 col-md-4">
+                    <h4 class="skill-header">Languages</h4>
+                    <ul class="skill-list">
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <h4 class="skill-header">Frameworks / Libraries</h4>
+                    <ul class="skill-list">
+                        <li>Bootstrap</li>
+                        <li>React</li>
+                        <li>Redux</li>
+                        <li>jQuery</li>
+                        <li>Mongoose</li>
+                        <li>Express</li>
+                        <li>CSS Grid</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <h4 class="skill-header">Other Skills</h4>
+                    <ul class="skill-list">
+                        <li>Node</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio container-fluid">
+            <h2 class="header2">Portfolio</h2>
+            <div class="work row">
+                <div class="col-xs-12 col-md-6 project-container">
+                <a href="./wrath.html"><img class="project-image img-thumbnail" src="./placeholder.jpg"/></a>
+                </div>
+
+                <div class="col-xs-12 col-md-6 project-container">
+                    <img class="project-image img-thumbnail" src="./placeholder.jpg"/>
+                </div>
+            </div>
+        </div>
+
+
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script src="./app.js" ></script>
     </body>
 </html>
