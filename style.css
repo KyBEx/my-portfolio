@@ -247,7 +247,11 @@ Profile / Contacts
 }
 
 .thumbnail-link {
-    color: #337ab7
+    color: #337ab7;
+    margin: auto;
+    font-size: 40px;
+    font-family: "Montserrat";
+
 }
 
 /*Project page*/
