@@ -239,7 +239,7 @@ Profile / Contacts
 .project-thumbnail {
     height: 300px;
     width: 500px;
-    margin: 30px auto 0px auto;
+    display: inline-block;
     border: 0px;
     padding: 0px;
     border-radius: 0px;
@@ -253,7 +253,10 @@ Profile / Contacts
     font-family: "Montserrat";
     height: 300px;
     width: 500px;
+}
 
+.thumbnail-description {
+    margin: auto;
 }
 
 /*Project page*/
