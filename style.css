@@ -233,13 +233,7 @@ Profile / Contacts
     background-color: black;
     color: white;
     font-size: 30px;
-    font-family: 'Montserrat'
-}
-
-/*portfolio*/
-
-
-.project-image {
+    font-family: 'Montserrat';
     height: 300px;
     width: 500px;
     margin-top: 30px;
@@ -247,6 +241,9 @@ Profile / Contacts
     padding: 0px;
     border-radius: 0px;
 }
+
+/*portfolio*/
+
 
 .project-container {
     height: 500px
