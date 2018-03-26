@@ -231,6 +231,10 @@ Profile / Contacts
 
 /*portfolio*/
 
+.project-container {
+    height: 500px;
+    text-align: center;
+}
 
 .project-thumbnail {
     height: 300px;
@@ -239,10 +243,11 @@ Profile / Contacts
     border: 0px;
     padding: 0px;
     border-radius: 0px;
+    background-color: black;
 }
 
-.project-container {
-    height: 500px
+.thumbnail-link {
+    color: #337ab7
 }
 
 /*Project page*/
