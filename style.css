@@ -253,6 +253,7 @@ Profile / Contacts
     font-family: "Montserrat";
     height: 300px;
     width: 500px;
+    text-decoration: none;
 }
 
 .thumbnail-description {
