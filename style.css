@@ -285,6 +285,16 @@ Profile / Contacts
     text-decoration: none;
 }
 
+#description-container {
+    margin-top: 7em;
+}
+
+.project-description {
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: #72BDA3;
+}
+
 
 
 
