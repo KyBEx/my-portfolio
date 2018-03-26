@@ -229,6 +229,13 @@ Profile / Contacts
     width: 100%;
 }
 
+.project-thumbnails {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat'
+}
+
 /*portfolio*/
 
 
