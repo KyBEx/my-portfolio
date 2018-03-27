@@ -256,7 +256,7 @@ Profile / Contacts
     text-decoration: none;
 }
 
-.thumbnail-description {
+.description {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
