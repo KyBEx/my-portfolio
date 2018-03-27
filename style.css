@@ -257,7 +257,9 @@ Profile / Contacts
 }
 
 .thumbnail-description {
-    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /*Project page*/
