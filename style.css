@@ -256,10 +256,27 @@ Profile / Contacts
     text-decoration: none;
 }
 
+.thumbnail-link:hover {
+    color: #72BDA3;
+}
+
 .description {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+/*Contact*/
+
+#portfolio-contact {
+    height: 50px;
+    background-color: black'
+}
+
+.contact-info {
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: #337ab7;
 }
 
 /*Project page*/
