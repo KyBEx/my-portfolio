@@ -271,6 +271,7 @@ Profile / Contacts
 #portfolio-contact {
     height: auto;
     background-color: black;
+    bottom: 0;
 }
 
 .contact-info {
