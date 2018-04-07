@@ -63,17 +63,6 @@ Nav and Banner
     padding: 0% 25%;
 }
 
-.project-banner {
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-    display: table;
-    padding: 0% 25%;
-    background-color: black;
-}
-
 .banner::before {
     content: "";
     background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("./compressjpeg/banner3-min.jpeg");
@@ -318,11 +307,23 @@ Profile / Contacts
     margin-top: 15em;
 }
 
+.project-banner {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    display: table;
+    padding: 0% 25%;
+    background-color: black;
+}
+
 .project-description {
     font-size: 20px;
     font-family: "Montserrat";
     color: #72BDA3;
     text-align: left;
+    margin-bottom: 25px;
 }
 
 .link {
